@@ -9,6 +9,7 @@
 In any of these IDEs you should be able to just run the `your-project-name-goes-here` target and it will work.
 
 ##### Notes:
+- (truedat101) Upgrade to use metal and function inside of VisionPro.
 - Bear in mind that rayfork is still under development and not officially released yet, you can use this template to experiment with rayfork if you are curious until it gets officially released. Once rayfork will be stable the `libs/rayfork` folder will be always updated with the latest release of rayfork, until then updates might be sparse.
 
 - The CMake file will also setup an `ASSETS_PATH` macro that will be an absolute path to the assets folder on your computer, if you wanna share the executable with other people then check lines 17 and 18 in the cmake file.

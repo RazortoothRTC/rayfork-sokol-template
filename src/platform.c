@@ -2,7 +2,11 @@
 #define SOKOL_GLCORE33
 #define SOKOL_WIN32_NO_GL_LOADER
 #define SOKOL_WIN32_FORCE_MAIN
+#ifdef __APPLE__
+
+#else
 #include "glad/glad.h"
+#endif
 #include "sokol/sokol_app.h"
 #include "platform.h"
 
